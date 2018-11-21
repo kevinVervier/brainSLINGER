@@ -7,3 +7,4 @@ Combination of brain-specific variant annotation and transcriptome imputation
 * add gene locations file ( '/Dedicated/jmichaelson-wdata/kvervier/PrediXcan/input/gencode') in data folder
 * use clusterProfiler for GO term enrichment and provide figures, instead of current use of PantherDb.
 * add '/wdata/kvervier/PrediXcan/output/17.gene_models.csv' in data, rename slinger_accuracy.csv
+* add ''/wdata/kvervier/PrediXcan/output/01.DGN-data.Rdata/18.data_split.Rdata' in data, rename cis_trans_split_WB.Rdata

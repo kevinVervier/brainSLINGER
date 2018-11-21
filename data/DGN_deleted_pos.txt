@@ -1,0 +1,698 @@
+#Deleted in new
+chr1:12376376-12376376
+#Deleted in new
+chr1:12532242-12532242
+#Deleted in new
+chr1:12544985-12544985
+#Deleted in new
+chr1:12546360-12546360
+#Deleted in new
+chr1:12694547-12694547
+#Deleted in new
+chr1:12715848-12715848
+#Deleted in new
+chr1:12726450-12726450
+#Deleted in new
+chr1:12726477-12726477
+#Deleted in new
+chr1:12820291-12820291
+#Deleted in new
+chr1:27382530-27382530
+#Deleted in new
+chr1:64083409-64083409
+#Deleted in new
+chr1:144539880-144539880
+#Deleted in new
+chr1:145730448-145730448
+#Deleted in new
+chr1:145992806-145992806
+#Deleted in new
+chr1:146006703-146006703
+#Deleted in new
+chr1:146006739-146006739
+#Deleted in new
+chr1:146013529-146013529
+#Deleted in new
+chr1:147029795-147029795
+#Deleted in new
+chr1:147084597-147084597
+#Deleted in new
+chr1:147216219-147216219
+#Deleted in new
+chr1:147216267-147216267
+#Deleted in new
+chr1:147235895-147235895
+#Deleted in new
+chr1:147235916-147235916
+#Deleted in new
+chr1:147242605-147242605
+#Deleted in new
+chr1:147297258-147297258
+#Deleted in new
+chr1:147298146-147298146
+#Deleted in new
+chr1:147366423-147366423
+#Deleted in new
+chr1:147370627-147370627
+#Deleted in new
+chr1:147455656-147455656
+#Deleted in new
+chr1:147503952-147503952
+#Deleted in new
+chr1:147586995-147586995
+#Deleted in new
+chr1:147624993-147624993
+#Deleted in new
+chr1:147636093-147636093
+#Deleted in new
+chr1:147677388-147677388
+#Deleted in new
+chr1:206447901-206447901
+#Deleted in new
+chr1:206587354-206587354
+#Deleted in new
+chr1:210666336-210666336
+#Deleted in new
+chr1:210667414-210667414
+#Deleted in new
+chr11:1159024-1159024
+#Deleted in new
+chr11:1199534-1199534
+#Deleted in new
+chr11:124217182-124217182
+#Deleted in new
+chr11:124224079-124224079
+#Deleted in new
+chr11:124229505-124229505
+#Deleted in new
+chr11:124249555-124249555
+#Deleted in new
+chr11:124252123-124252123
+#Deleted in new
+chr12:11186175-11186175
+#Deleted in new
+chr12:11235559-11235559
+#Deleted in new
+chr14:21585739-21585739
+#Deleted in new
+chr14:21612001-21612001
+#Deleted in new
+chr14:21631353-21631353
+#Deleted in new
+chr14:21721065-21721065
+#Deleted in new
+chr14:21735063-21735063
+#Deleted in new
+chr14:21741236-21741236
+#Deleted in new
+chr14:21791874-21791874
+#Deleted in new
+chr14:21874260-21874260
+#Deleted in new
+chr14:21941380-21941380
+#Deleted in new
+chr14:21959698-21959698
+#Deleted in new
+chr14:21960756-21960756
+#Deleted in new
+chr14:21985674-21985674
+#Deleted in new
+chr14:22037853-22037853
+#Deleted in new
+chr14:22133801-22133801
+#Deleted in new
+chr14:22133815-22133815
+#Deleted in new
+chr14:22143826-22143826
+#Deleted in new
+chr14:22166305-22166305
+#Deleted in new
+chr14:22172144-22172144
+#Deleted in new
+chr14:22224198-22224198
+#Deleted in new
+chr14:22296185-22296185
+#Deleted in new
+chr14:22311424-22311424
+#Deleted in new
+chr14:22324066-22324066
+#Deleted in new
+chr14:22375173-22375173
+#Deleted in new
+chr14:22397466-22397466
+#Deleted in new
+chr14:22409370-22409370
+#Deleted in new
+chr14:22508237-22508237
+#Deleted in new
+chr14:22546932-22546932
+#Deleted in new
+chr14:22549864-22549864
+#Deleted in new
+chr14:22551976-22551976
+#Deleted in new
+chr14:22559797-22559797
+#Deleted in new
+chr14:22569950-22569950
+#Deleted in new
+chr14:22600791-22600791
+#Deleted in new
+chr14:63315449-63315449
+#Deleted in new
+chr14:72190376-72190376
+#Deleted in new
+chr15:64949598-64949598
+#Deleted in new
+chr15:99098746-99098746
+#Deleted in new
+chr17:35968999-35968999
+#Deleted in new
+chr17:35975141-35975141
+#Deleted in new
+chr17:35982014-35982014
+#Deleted in new
+chr17:36009796-36009796
+#Deleted in new
+chr17:36011843-36011843
+#Deleted in new
+chr17:36031850-36031850
+#Deleted in new
+chr17:36469630-36469630
+#Deleted in new
+chr17:36513312-36513312
+#Deleted in new
+chr17:36611850-36611850
+#Deleted in new
+chr17:36611889-36611889
+#Deleted in new
+chr17:36612068-36612068
+#Deleted in new
+chr17:36630182-36630182
+#Deleted in new
+chr17:36705583-36705583
+#Deleted in new
+chr17:36748518-36748518
+#Deleted in new
+chr17:36772152-36772152
+#Deleted in new
+chr17:36779345-36779345
+#Deleted in new
+chr17:36780085-36780085
+#Deleted in new
+chr17:36804571-36804571
+#Deleted in new
+chr17:36843262-36843262
+#Deleted in new
+chr17:37670030-37670030
+#Deleted in new
+chr17:37700210-37700210
+#Deleted in new
+chr17:37736525-37736525
+#Deleted in new
+chr17:37804339-37804339
+#Deleted in new
+chr17:37815140-37815140
+#Deleted in new
+chr17:37821095-37821095
+#Deleted in new
+chr17:37836317-37836317
+#Deleted in new
+chr17:38380230-38380230
+#Deleted in new
+chr17:64334897-64334897
+#Deleted in new
+chr17:64335244-64335244
+#Deleted in new
+chr17:64339579-64339579
+#Deleted in new
+chr17:64350416-64350416
+#Deleted in new
+chr17:64352068-64352068
+#Deleted in new
+chr17:64360070-64360070
+#Deleted in new
+chr17:64374101-64374101
+#Deleted in new
+chr17:64384207-64384207
+#Deleted in new
+chr17:64388020-64388020
+#Deleted in new
+chr17:64389482-64389482
+#Deleted in new
+chr17:64404221-64404221
+#Deleted in new
+chr17:64406877-64406877
+#Deleted in new
+chr17:64413141-64413141
+#Deleted in new
+chr17:64413738-64413738
+#Deleted in new
+chr17:64447542-64447542
+#Deleted in new
+chr17:64448998-64448998
+#Deleted in new
+chr17:64449110-64449110
+#Deleted in new
+chr17:79548667-79548667
+#Deleted in new
+chr17:79727803-79727803
+#Deleted in new
+chr17:79727839-79727839
+#Deleted in new
+chr17:79730417-79730417
+#Deleted in new
+chr17:79734466-79734466
+#Deleted in new
+chr17:83091923-83091923
+#Deleted in new
+chr17:83093237-83093237
+#Deleted in new
+chr17:83102004-83102004
+#Deleted in new
+chr19:8644760-8644760
+#Deleted in new
+chr19:8698592-8698592
+#Deleted in new
+chr19:8704544-8704544
+#Deleted in new
+chr19:11425820-11425820
+#Deleted in new
+chr19:41479679-41479679
+#Deleted in new
+chr19:41609766-41609766
+#Deleted in new
+chr19:41617217-41617217
+#Deleted in new
+chr19:41687368-41687368
+#Deleted in new
+chr19:41761981-41761981
+#Deleted in new
+chr19:41776424-41776424
+#Deleted in new
+chr19:41802009-41802009
+#Deleted in new
+chr19:41805289-41805289
+#Deleted in new
+chr19:41811243-41811243
+#Deleted in new
+chr19:41814452-41814452
+#Deleted in new
+chr19:41836731-41836731
+#Deleted in new
+chr19:41878675-41878675
+#Deleted in new
+chr19:44398849-44398849
+#Deleted in new
+chr19:44408390-44408390
+#Deleted in new
+chr19:44431310-44431310
+#Deleted in new
+chr19:44544784-44544784
+#Deleted in new
+chr19:54189676-54189676
+#Deleted in new
+chr19:54189703-54189703
+#Deleted in new
+chr19:54200852-54200852
+#Deleted in new
+chr19:54200900-54200900
+#Deleted in new
+chr19:54252279-54252279
+#Deleted in new
+chr19:54302487-54302487
+#Deleted in new
+chr19:54352805-54352805
+#Deleted in new
+chr19:54354442-54354442
+#Deleted in new
+chr19:54454681-54454681
+#Deleted in new
+chr19:54474097-54474097
+#Deleted in new
+chr19:54502543-54502543
+#Deleted in new
+chr19:54502555-54502555
+#Deleted in new
+chr19:54535161-54535161
+#Deleted in new
+chr19:54682579-54682579
+#Deleted in new
+chr19:54683894-54683894
+#Deleted in new
+chr19:54692513-54692513
+#Deleted in new
+chr19:54699767-54699767
+#Deleted in new
+chr19:54705173-54705173
+#Deleted in new
+chr19:54713453-54713453
+#Deleted in new
+chr19:54713465-54713465
+#Deleted in new
+chr19:54736605-54736605
+#Deleted in new
+chr19:54906373-54906373
+#Deleted in new
+chr2:776122-776122
+#Deleted in new
+chr2:836197-836197
+#Deleted in new
+chr2:841179-841179
+#Deleted in new
+chr2:856248-856248
+#Deleted in new
+chr2:856704-856704
+#Deleted in new
+chr2:35937410-35937410
+#Deleted in new
+chr2:35953829-35953829
+#Deleted in new
+chr2:35990944-35990944
+#Deleted in new
+chr2:241808375-241808375
+#Deleted in new
+chr20:35566207-35566207
+#Deleted in new
+chr20:38382587-38382587
+#Deleted in new
+chr20:38398565-38398565
+#Deleted in new
+chr20:38422361-38422361
+#Deleted in new
+chr20:48507684-48507684
+#Deleted in new
+chr21:28872555-28872555
+#Deleted in new
+chr21:44569328-44569328
+#Deleted in new
+chr21:44572248-44572248
+#Deleted in new
+chr21:44581077-44581077
+#Deleted in new
+chr21:44600096-44600096
+#Deleted in new
+chr21:44602019-44602019
+#Deleted in new
+chr22:17381513-17381513
+#Deleted in new
+chr22:17381531-17381531
+#Deleted in new
+chr22:17463835-17463835
+#Deleted in new
+chr22:17464393-17464393
+#Deleted in new
+chr22:17486811-17486811
+#Deleted in new
+chr22:17519777-17519777
+#Deleted in new
+chr22:17556691-17556691
+#Deleted in new
+chr22:17575169-17575169
+#Deleted in new
+chr22:22040351-22040351
+#Deleted in new
+chr22:22078699-22078699
+#Deleted in new
+chr22:22083318-22083318
+#Deleted in new
+chr22:22204064-22204064
+#Deleted in new
+chr22:22930481-22930481
+#Deleted in new
+chr22:23037029-23037029
+#Deleted in new
+chr22:23069838-23069838
+#Deleted in new
+chr22:27708064-27708064
+#Deleted in new
+chr22:49161344-49161344
+#Deleted in new
+chr22:49364273-49364273
+#Deleted in new
+chr22:49383718-49383718
+#Deleted in new
+chr3:16821370-16821370
+#Deleted in new
+chr3:16832587-16832587
+#Deleted in new
+chr3:16858712-16858712
+#Deleted in new
+chr3:16878070-16878070
+#Deleted in new
+chr3:48442021-48442021
+#Deleted in new
+chr3:60833342-60833342
+#Deleted in new
+chr3:195519008-195519008
+#Deleted in new
+chr3:195530369-195530369
+#Deleted in new
+chr4:9484419-9484419
+#Deleted in new
+chr6:893799-893799
+#Deleted in new
+chr6:48665854-48665854
+#Deleted in new
+chr6:48677811-48677811
+#Deleted in new
+chr6:48703162-48703162
+#Deleted in new
+chr6:49257546-49257546
+#Deleted in new
+chr6:49363214-49363214
+#Deleted in new
+chr6:49366658-49366658
+#Deleted in new
+chr6:57499442-57499442
+#Deleted in new
+chr6:72595662-72595662
+#Deleted in new
+chr6:72596799-72596799
+#Deleted in new
+chr6:72598785-72598785
+#Deleted in new
+chr6:73877946-73877946
+#Deleted in new
+chr6:82798154-82798154
+#Deleted in new
+chr6:106859910-106859910
+#Deleted in new
+chr6:168678024-168678024
+#Deleted in new
+chr6:168710331-168710331
+#Deleted in new
+chr6:168711726-168711726
+#Deleted in new
+chr7:65310563-65310563
+#Deleted in new
+chr7:75539468-75539468
+#Deleted in new
+chr7:75543861-75543861
+#Deleted in new
+chr7:100940115-100940115
+#Deleted in new
+chr7:100950627-100950627
+#Deleted in new
+chr7:100950639-100950639
+#Deleted in new
+chr7:130730844-130730844
+#Deleted in new
+chr7:142352043-142352043
+#Deleted in new
+chr7:142352790-142352790
+#Deleted in new
+chr7:142353982-142353982
+#Deleted in new
+chr7:142355536-142355536
+#Deleted in new
+chr7:142386323-142386323
+#Deleted in new
+chr7:142527239-142527239
+#Deleted in new
+chr7:142527705-142527705
+#Deleted in new
+chr7:142531084-142531084
+#Deleted in new
+chr7:142532389-142532389
+#Deleted in new
+chr7:142532665-142532665
+#Deleted in new
+chr7:142535861-142535861
+#Deleted in new
+chr7:142537117-142537117
+#Deleted in new
+chr7:142544396-142544396
+#Deleted in new
+chr7:142545292-142545292
+#Deleted in new
+chr7:142549629-142549629
+#Deleted in new
+chr7:142552584-142552584
+#Deleted in new
+chr7:142553915-142553915
+#Deleted in new
+chr7:142553992-142553992
+#Deleted in new
+chr7:142554216-142554216
+#Deleted in new
+chr7:142554531-142554531
+#Deleted in new
+chr7:142555948-142555948
+#Deleted in new
+chr7:142561951-142561951
+#Deleted in new
+chr7:142565129-142565129
+#Deleted in new
+chr7:142565684-142565684
+#Deleted in new
+chr7:142578691-142578691
+#Deleted in new
+chr7:142580477-142580477
+#Deleted in new
+chr7:142588240-142588240
+#Deleted in new
+chr7:142592099-142592099
+#Deleted in new
+chr7:142593062-142593062
+#Deleted in new
+chr7:142593137-142593137
+#Deleted in new
+chr7:142596569-142596569
+#Deleted in new
+chr7:142598692-142598692
+#Deleted in new
+chr7:142604431-142604431
+#Deleted in new
+chr7:142605203-142605203
+#Deleted in new
+chr7:142606432-142606432
+#Deleted in new
+chr7:142608471-142608471
+#Deleted in new
+chr7:142646996-142646996
+#Deleted in new
+chr7:142710192-142710192
+#Deleted in new
+chr7:142747687-142747687
+#Deleted in new
+chr7:142767091-142767091
+#Deleted in new
+chr7:142770582-142770582
+#Deleted in new
+chr7:142776411-142776411
+#Deleted in new
+chr7:142780026-142780026
+#Deleted in new
+chr7:142786707-142786707
+#Deleted in new
+chr7:142787829-142787829
+#Deleted in new
+chr7:142789018-142789018
+#Deleted in new
+chr7:142811654-142811654
+#Deleted in new
+chr7:142947434-142947434
+#Deleted in new
+chr8:1300387-1300387
+#Deleted in new
+chr8:2043805-2043805
+#Deleted in new
+chr8:2086999-2086999
+#Deleted in new
+chr8:2096523-2096523
+#Deleted in new
+chr8:2096586-2096586
+#Deleted in new
+chr8:2101041-2101041
+#Deleted in new
+chr8:2106381-2106381
+#Deleted in new
+chr8:2107540-2107540
+#Deleted in new
+chr8:2147087-2147087
+#Deleted in new
+chr8:2150846-2150846
+#Deleted in new
+chr8:2152457-2152457
+#Deleted in new
+chr8:2164207-2164207
+#Deleted in new
+chr8:2172136-2172136
+#Deleted in new
+chr8:2172316-2172316
+#Deleted in new
+chr8:2172776-2172776
+#Deleted in new
+chr8:2173171-2173171
+#Deleted in new
+chr8:2173310-2173310
+#Deleted in new
+chr8:2174497-2174497
+#Deleted in new
+chr8:2175738-2175738
+#Deleted in new
+chr8:2177208-2177208
+#Deleted in new
+chr8:2185141-2185141
+#Deleted in new
+chr8:2230928-2230928
+#Deleted in new
+chr8:2348509-2348509
+#Deleted in new
+chr8:2499603-2499603
+#Deleted in new
+chr8:2499808-2499808
+#Deleted in new
+chr8:2627201-2627201
+#Deleted in new
+chr8:2645358-2645358
+#Deleted in new
+chr8:2660366-2660366
+#Deleted in new
+chr8:2691414-2691414
+#Deleted in new
+chr8:42511955-42511955
+#Deleted in new
+chr8:116233239-116233239
+#Deleted in new
+chr8:139955375-139955375
+#Deleted in new
+chr8:139969076-139969076
+#Deleted in new
+chr8:139974750-139974750
+#Deleted in new
+chr8:139984704-139984704
+#Deleted in new
+chr8:142646991-142646991
+#Deleted in new
+chr8:142655579-142655579
+#Deleted in new
+chr8:142657115-142657115
+#Deleted in new
+chr8:142662199-142662199
+#Deleted in new
+chr8:142662241-142662241
+#Deleted in new
+chr8:142664633-142664633
+#Deleted in new
+chr9:133258116-133258116
+#Deleted in new
+chr9:133258308-133258308
+#Deleted in new
+chr9:133258352-133258352
+#Deleted in new
+chr9:133259834-133259834
+#Deleted in new
+chr9:133260255-133260255
+#Deleted in new
+chr9:133278037-133278037
+#Deleted in new
+chr9:133298034-133298034
+#Deleted in new
+chr9:133299476-133299476
+#Deleted in new
+chr9:133320784-133320784
+#Deleted in new
+chr9:133338901-133338901
+#Deleted in new
+chr9:133416846-133416846

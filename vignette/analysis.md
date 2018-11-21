@@ -65,6 +65,8 @@ We compared genes with a model in SLINGER and in brain-SLINGER and found `r leng
 * signal transducer activity (MF)
 * receptor activity (MF)
 
+!(../pic/go_term_new_vs_all_bp.png)
+!(../pic/go_term_new_vs_all_mf.png)
 Interestingly, in the process of training brain SLINGER models, we also lost the ability to predict transcriptome for `r  length(which(!(control.genes %in% brain.genes)))` genes. When compared with the newly acquired genes, we did not found any GO term enrichment for the missing genes, and found *stress response* as the only enriched term in the new genes.
 
 We also look at the accuracy of the lost models in terms of their cross-validated r-squared values in SLINGER, compared to the rest of the SLINGER models.
@@ -88,6 +90,7 @@ venn.plot <- draw.pairwise.venn(9747,11959, 9747-1337, c("brain-SLINGER", "WB-SL
 grid.draw(venn.plot)
 
 ```
+!(../pic/venn.png)
 
 Following findings from *Functional Architectures of Local and Distal Regulation of Gene Expression in Multiple Human Tissues* (Liu,2017), we investigated if the tissue-specific models tend to be enriched in distal regulatory elements.
 
@@ -96,20 +99,20 @@ First, we compute local and distal regulatory elements found in SLINGER models.
 ```{r, echo =T, eval =F}
 
 # load models
-models = read.table('/wdata/kvervier/PrediXcan/output/01.DGN-data.Rdata/AllSNPs-elasticNet.txt',header=TRUE)
+models = read.table('../data/slinger_models_WB.txt',header=TRUE)
 # load gene info (genecode)
-genes = read.table('/wdata/kvervier/PrediXcan/input/gencode',header=FALSE)
+genes = read.table('../data/gencode',header=FALSE)
 
 # get snps info
-load('/wdata/kvervier/PrediXcan/input/01.DGN-data.Rdata')
+load('../data/DGN-data.Rdata')
 # need to convert to GrChr37 (liftover)
 # load hg19 location
-loc = read.table('/wdata/kvervier/pharmacogenomics/input/DGN_hg19_locations.bed',sep = ':')
+loc = read.table('../data/DGN_hg19_locations.bed',sep = ':')
 loc[,1] = gsub(loc[,1],pattern = 'chr',replacement = '')
 loc[,3] = gsub(loc[,2],pattern='.*-',replacement = '')
 loc[,2] = loc[,3]
 # read deleted positions
-del_pos = read.table('/wdata/kvervier/pharmacogenomics/input/DGN_deleted_pos.txt',header=FALSE) # 349 positions
+del_pos = read.table('/../data/DGN_deleted_pos.txt',header=FALSE) # 349 positions
 # remove them from snp_locations
 idx = match(paste(paste(paste('chr',snp_locations[,2],sep=''),snp_locations[,3],sep=':'),snp_locations[,3],sep='-'), del_pos[,1])
 snp_locations = snp_locations[-which(!is.na(idx)),]
@@ -139,43 +142,38 @@ idx = which(snps$chr.snp != snps$chr.gene | abs(snps$pos.snp - snps$start.gene) 
 distal = snps[idx,]
 local = snps[-idx,]
 
-save(distal,local,file='/wdata/kvervier/PrediXcan/output/01.DGN-data.Rdata/18.data_split.Rdata')
 
-```
-
-```{r}
-load('/wdata/kvervier/PrediXcan/output/01.DGN-data.Rdata/18.data_split.Rdata')
-# get overall proportion of local/distal
-nrow(local)/(nrow(local)+nrow(distal)) 
-```
-```{r, echo=T,eval=F}
 # get proportion of local/distal per gene
 tmp = rbind(local,distal)
 count = sapply(unique(tmp$gene),function(g) nrow(local[which(local$gene==g),])/(nrow(local[which(local$gene==g),])+nrow(distal[which(distal$gene==g),])))
-save(count,distal,local,file='/wdata/kvervier/PrediXcan/output/01.DGN-data.Rdata/18.data_split.Rdata')
+save(count,distal,local,file='../data/cis_trans_split_WB.Rdata')
 ```
+
 ```{r}
-load('/wdata/kvervier/PrediXcan/output/01.DGN-data.Rdata/18.data_split.Rdata')
+load('../data/cis_trans_split_WB.Rdata')
+# get overall proportion of local/distal
+nrow(local)/(nrow(local)+nrow(distal)) 
+# get average gene count
 mean(count) 
 ```
 
 Then, we applied a similar methodology to brain-SLINGER models:
 ```{r, echo =T, eval =F}
 # load models
-models = read.table('/wdata/kvervier/pharmacogenomics/output/01.DGN-data.Rdata/brain_models.txt',header=TRUE,sep='\t')
+models = read.table('../data/slinger_models_Brain.txt',header=TRUE,sep='\t')
 # load gene info (genecode)
-genes = read.table('/wdata/kvervier/PrediXcan/input/gencode',header=FALSE)
+genes = read.table('../data/gencode',header=FALSE)
 
 # get snps info
-load('/wdata/kvervier/PrediXcan/input/01.DGN-data.Rdata')
+load('../data/DGN-data.Rdata')
 # need to convert to GrChr37 (liftover)
 # load hg19 location
-loc = read.table('/wdata/kvervier/pharmacogenomics/input/DGN_hg19_locations.bed',sep = ':')
+loc = read.table('../data/DGN_hg19_locations.bed',sep = ':')
 loc[,1] = gsub(loc[,1],pattern = 'chr',replacement = '')
 loc[,3] = gsub(loc[,2],pattern='.*-',replacement = '')
 loc[,2] = loc[,3]
 # read deleted positions
-del_pos = read.table('/wdata/kvervier/pharmacogenomics/input/DGN_deleted_pos.txt',header=FALSE) # 349 positions
+del_pos = read.table('../data/DGN_deleted_pos.txt',header=FALSE) # 349 positions
 # remove them from snp_locations
 idx = match(paste(paste(paste('chr',snp_locations[,2],sep=''),snp_locations[,3],sep=':'),snp_locations[,3],sep='-'), del_pos[,1])
 snp_locations = snp_locations[-which(!is.na(idx)),]
@@ -204,21 +202,15 @@ idx = which(snps$chr.snp != snps$chr.gene | abs(snps$pos.snp - snps$start.gene) 
 distal.brain = snps[idx,]
 local.brain = snps[-idx,]
 
-save(distal.brain,local.brain,file='/wdata/kvervier/pharmacogenomics/output/01.DGN-data.Rdata/18.data_split.Rdata')
-```
-```{r}
-# get overall proportion of local/distal
-load('/wdata/kvervier/pharmacogenomics/output/01.DGN-data.Rdata/18.data_split.Rdata')
-nrow(local.brain)/(nrow(local.brain)+nrow(distal.brain))
-```
-```{r, echo =T, eval =F}
 # get proportion of local/distal per gene
 tmp = rbind(local.brain,distal.brain)
 count.brain = sapply(unique(tmp$gene),function(g) nrow(local.brain[which(local.brain$gene==g),])/(nrow(local.brain[which(local$gene==g),])+nrow(distal.brain[which(distal.brain$gene==g),])))
-save(count.brain,local.brain,distal.brain,file='/wdata/kvervier/pharmacogenomics/output/01.DGN-data.Rdata/18.data_split.Rdata')
+save(count.brain,local.brain,distal.brain,file='../data/cis_trans_split_brain.Rdata')
 ```
 ```{r}
-load('/wdata/kvervier/pharmacogenomics/output/01.DGN-data.Rdata/18.data_split.Rdata')
+# get overall proportion of local/distal
+load('../data/cis_trans_split_brain.Rdata')
+nrow(local.brain)/(nrow(local.brain)+nrow(distal.brain))
 mean(count.brain)
 ```
 
@@ -234,7 +226,7 @@ legend(x='topright',legend = c('SLINGER','brain SLINGER'),fill =c(rgb(1,0,0,0.5)
 
 ## **Brain models performance versus PrediXcan-GTEx**
 
-In this section, we proposed to compare the brain-SLINGer models trained using a large collection of whole blood expressions and computationally enriched in brain-related elements by TiSAn, with models trained using PrediXcan on a limited number of brain expression samples from GTEx database.
+In this section, we proposed to compare the brain-SLINGER models trained using a large collection of whole blood expressions and computationally enriched in brain-related elements by TiSAn, with models trained using PrediXcan on a limited number of brain expression samples from GTEx database.
 
 To compare these approaches, we measured the correlation between their predicted gene expression and the actual measured expression in GTEx 10 brain regions.
 
